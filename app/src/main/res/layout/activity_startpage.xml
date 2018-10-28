@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Startpage">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="189dp"
+        android:layout_height="99dp"
+android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mtravels" />
+<RelativeLayout
+    android:id="@+id/rl1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/bbutton"
+        android:layout_marginRight="15dp"
+        android:text="LOGIN"
+        android:id="@+id/bt"
+        android:textColor="@color/Crimson"
+        android:textSize="15sp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/cebutton"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:text="SIGN UP"
+        android:id="@+id/signup"
+        android:textColor="@color/White"
+        android:textSize="15sp"
+        android:layout_below="@+id/bt"
+        />
+
+    <ImageView
+        android:layout_marginTop="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/bt"
+        android:src="@drawable/line"
+        />
+    <TextView
+        android:id="@+id/otp"
+        android:layout_width="wrap_content"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:background="@drawable/cebutton"
+        android:textColor="@color/White"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/bt"
+        />
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_person_add_black_24dp"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+        android:layout_below="@+id/bt"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="15dp"
+        />
+</RelativeLayout>
+
+</RelativeLayout>

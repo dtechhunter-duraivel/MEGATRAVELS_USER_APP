@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:orientation="horizontal"
+    android:layout_height="100dp"
+    android:paddingLeft="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/Crimson"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_person_white_24dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/uide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Hi, User"
+            android:textColor="@color/White"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="9994314045"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/White" />
+    </LinearLayout>
+</LinearLayout>

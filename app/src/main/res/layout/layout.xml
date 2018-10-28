@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <TextView
+        android:id="@+id/tit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Date &amp; Time"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/pd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bookdetails"
+        android:hint="CHOOSE PICKUP DATE"
+        android:focusableInTouchMode="false"
+        android:inputType="date"
+        android:padding="15dp"
+
+        android:textSize="13dp" />
+
+    <EditText
+        android:id="@+id/pt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pd"
+        android:layout_marginLeft="20dp"
+        android:focusableInTouchMode="false"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bookdetails"
+        android:hint="CHOOSE PICKUP TIME"
+        android:inputType="time"
+        android:padding="15dp"
+
+        android:textSize="13dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Confirm"
+        android:textSize="12dp"
+        android:id="@+id/conb"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight= "20dp"
+        android:layout_below="@+id/pt"
+        android:background="@drawable/conbook"
+        android:textColor="@color/White"
+        />
+
+
+
+</RelativeLayout>

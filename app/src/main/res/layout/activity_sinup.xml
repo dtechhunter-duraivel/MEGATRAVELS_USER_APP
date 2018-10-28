@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="60sp"
+            android:hint="FIRST NAME"
+            android:textSize="15dp"
+            android:background="@drawable/cetext"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/side"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            />
+
+
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_person_white_24dp"
+            android:textColor="@color/White"
+            android:textSize="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="15dp"
+            />
+
+
+
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/e1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="60dp"
+        android:hint="LAST NAME"
+        android:textSize="15dp"
+        android:background="@drawable/cetext"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_below="@+id/e1"
+        android:layout_height="50dp"
+        android:background="@drawable/side"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/e1"
+        android:background="@drawable/ic_person_outline_black_24dp"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="15dp"
+        />
+
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_below="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="60dp"
+        android:hint="EMAIL"
+        android:textSize="15dp"
+        android:background="@drawable/cetext"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/e2"
+        android:background="@drawable/side"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_email_black_24dp"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+        android:layout_below="@id/e2"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="15dp"
+        />
+
+
+
+    <Spinner
+        android:id="@+id/e4"
+        android:layout_below="@+id/e3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="60dp"
+        android:hint="GENDER"
+        android:textSize="15dp"
+        android:background="@drawable/cetext"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/e3"
+        android:background="@drawable/side"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_person_pin_black_24dp"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+
+        android:layout_below="@id/e3"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="15dp"
+        />
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_below="@+id/e4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="60dp"
+        android:hint="PASSWORD"
+        android:textSize="15dp"
+        android:background="@drawable/cetext"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/e4"
+        android:background="@drawable/side"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_lock_open_black_24dp"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+
+        android:layout_below="@id/e4"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="25dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/confirmpass"
+        android:layout_below="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="60dp"
+        android:hint="CONFIRM PASSWORD"
+        android:textSize="15dp"
+        android:background="@drawable/cetext"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pass"
+        android:background="@drawable/side"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_lock_open_black_24dp"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+        android:layout_below="@id/pass"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="15dp"
+        />
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_below="@+id/confirmpass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="60dp"
+        android:hint="ADDRESS (DOOR NUMBER)"
+        android:textSize="15dp"
+        android:background="@drawable/cetext"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/confirmpass"
+        android:background="@drawable/side"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_recent_actors_black_24dp"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+        android:layout_below="@id/confirmpass"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="15dp"
+        />
+        <EditText
+            android:id="@+id/alone"
+            android:layout_below="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="60dp"
+            android:hint="STREET/AREA"
+            android:textSize="15dp"
+            android:background="@drawable/cetext"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/address"
+            android:background="@drawable/side"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_recent_actors_black_24dp"
+            android:textColor="@color/White"
+            android:textSize="16dp"
+            android:layout_below="@id/address"
+            android:layout_marginTop="31dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+            android:id="@+id/altwo"
+            android:layout_below="@+id/alone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="60dp"
+            android:hint="CITY"
+            android:textSize="15dp"
+            android:background="@drawable/cetext"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/alone"
+            android:background="@drawable/side"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_recent_actors_black_24dp"
+            android:textColor="@color/White"
+            android:textSize="16dp"
+            android:layout_below="@id/alone"
+            android:layout_marginTop="31dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="15dp"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/cebutton"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="15dp"
+        android:text="REGISTER"
+        android:id="@+id/but"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+        android:layout_below="@+id/altwo"
+        />
+
+
+</RelativeLayout>
+
+</ScrollView>

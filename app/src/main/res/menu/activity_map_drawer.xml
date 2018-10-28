@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/logouting"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout"/>
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/histo"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Booking History"
+            />
+    </group>
+
+
+</menu>

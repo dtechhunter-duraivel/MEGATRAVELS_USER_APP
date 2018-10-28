@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Startpage">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="189dp"
+        android:layout_height="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/mtravels" />
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_below="@+id/bt"
+            android:src="@drawable/line"
+            />
+        <TextView
+            android:id="@+id/otp"
+            android:layout_width="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textAlignment="center"
+            android:textSize="12dp"
+            android:layout_height="wrap_content"
+            android:text="OTP"
+            android:background="@drawable/cebutton"
+            android:textColor="@color/White"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/eotp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="60dp"
+            android:hint="ENTER YOUR OTP"
+            android:layout_below="@+id/otp"
+            android:textSize="14dp"
+            android:background="@drawable/cetext"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/side"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/otp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <Button
+            android:id="@+id/otpval"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_lock_open_black_24dp"
+            android:textColor="@color/White"
+            android:textSize="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/otp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESEND IN : 00 : 59 "
+            android:textColor="@color/Crimson"
+            android:layout_below="@id/eotp"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:id="@+id/eresend"
+            android:textSize="15sp"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/otpval"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/cebutton"
+            android:text="VERIFY"
+            android:textSize="15dp"
+            android:id="@+id/everify"
+            android:textColor="@color/White"
+
+
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Single List Item Design -->
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/label"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:weightSum="10">
+
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="0dp"
+            android:layout_height="77dp"
+            android:layout_weight="5"
+            android:scaleType="centerCrop"
+            android:src="@drawable/venture" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.5"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4.2dp"
+                android:text="Tata"
+                android:textColor="@color/Gray"
+                android:textSize="12dp" />
+
+            <TextView
+
+
+                android:id="@+id/head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4.2dp"
+                android:text="VENTURE"
+                android:textColor="@color/Black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="130 KMph"
+                android:textColor="@color/Black"
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/cg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A/C  Non-A/C"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/Black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3.3dp"
+                android:layout_marginLeft="20dp"
+                android:text="Min. Rs.200/4 Kms"
+                android:textColor="@color/Black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Additional Charges Rs.13/km"
+
+                android:textColor="@color/Black"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/book"
+                android:layout_width="110dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/MidnightBlue"
+                android:text="Book Now"
+                android:textColor="@color/White"
+                android:textSize="10dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

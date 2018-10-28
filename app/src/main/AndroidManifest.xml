@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.megalatravels.duraivel.cabbooking">
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!--
+     The following two permissions are not required to use
+     Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission
+        android:name="com.megalatravels.duraivel.cabbooking.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.duraivel.myapplication.permission.MAPS_RECEIVE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launch"
+        android:label="MEGALA TRAVELS"
+        android:roundIcon="@drawable/launch"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAmkb3OfGp_AYsdEVLnSvy_3ivO1aNC8Ew" />
+
+        <activity android:name=".place" />
+
+        <activity
+            android:name=".FirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main4Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main5Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".SinupActivity"
+            android:label="REGISTER" />
+        <activity android:name=".Startpage" />
+        <activity
+            android:name=".OTPPage"
+            android:label="VERIFY" />
+        <activity
+            android:name=".MobileNumber"
+            android:label="GENERATE OTP" />
+        <activity
+            android:name=".MapAct"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakeJourney"
+            android:label="@string/title_activity_make_journey"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".ResetPass" />
+        <activity android:name=".ResetPassReg" />
+        <activity
+            android:name=".HistoryCancel"
+            android:label="Booking History"></activity>
+        <activity android:name=".ComplaintActivity"></activity>
+
+    </application>
+
+
+
+</manifest>

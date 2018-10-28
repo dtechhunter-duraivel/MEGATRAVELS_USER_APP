@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+        <item name="spinnerStyle">@style/SpinnerIcon</item>
+        <item name="colorPrimary">@color/Crimson</item>
+        <item name="colorPrimaryDark">@color/Crimson</item>
+        <item name="colorAccent">@color/Crimson</item>
+        <item name="android:statusBarColor">@color/Crimson</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+    <style name="MyAnim">
+        <item name="android:windowEnterAnimation">@anim/slidedown</item>
+        <item name="android:windowExitAnimation">@anim/slideup</item>
+    </style>
+</resources>

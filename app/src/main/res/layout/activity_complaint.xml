@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComplaintActivity">
+    <EditText
+        android:id="@+id/compname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="30sp"
+        android:hint="YOUR NAME"
+        android:textSize="15dp"
+        android:background="@drawable/cetext"
+        />
+
+    <EditText
+        android:id="@+id/mobi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="30sp"
+        android:hint="MOBILE NUMBER"
+        android:layout_below="@+id/compname"
+        android:textSize="15dp"
+        android:background="@drawable/cetext"
+        />
+    <EditText
+        android:id="@+id/complaint"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="30sp"
+        android:hint="Place Your Complaint Here!"
+        android:layout_below="@+id/mobi"
+        android:textSize="15dp"
+        android:background="@drawable/cetext"
+        
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/cebutton"
+        android:layout_marginRight="15dp"
+        android:text="REPORT"
+        android:id="@+id/report"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/complaint"
+        />
+</RelativeLayout>

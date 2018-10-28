@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/White"
+    >
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="60sp"
+        android:hint="MOBILE NUMBER"
+        android:background="@drawable/cetext"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/side"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        />
+
+
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_phone_android_black_24dp"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/cetext"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:paddingLeft="60dp" />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/side"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_lock_open_black_24dp"
+        android:textColor="@color/White"
+        android:textSize="16dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <TextView
+        android:id="@+id/e5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORGOT PASSWORD ?"
+        android:textColor="@color/Crimson"
+        android:layout_below="@id/e2"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:textSize="15sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/cebutton"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:text="LOGIN"
+        android:id="@+id/bt"
+        android:textColor="@color/White"
+        android:textSize="15dp"
+        android:layout_below="@+id/e2"
+    />
+
+
+</RelativeLayout>
